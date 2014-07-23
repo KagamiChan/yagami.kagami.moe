@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+body{
+    font-family: "Open Sans", "Source Han Sans", "Noto Sans", "Hiragino Sans GB", "Lihei Pro", "Microsoft Yahei", "Wenquanyi Microhei", sans-serif;
+    font-weight: 400;
+    color: #666;
+    
+}
+
+wrapper{
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+h1{
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    width:800px;
+    height: 445px;
+    background-image: url('./かがみ.jpg');
+
+}
+
+copyright{
+    text-align: right;
+    display: block;
+}
+
+
+
+li{
+    list-style: none;
+    display: block;
+    margin: 0 1ex 0 1ex;
+    bottom: 0px;
+}
+
+left-nav ul,
+right-nav ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    height: 60px;
+}
+
+left-nav ul{
+    width: 60%;
+}
+
+right-nav ul{
+    width: 30%;
+}
+
+left-nav li{
+    float: left;
+    font-size: 160%;
+}
+
+
+
+right-nav li{
+    float: right;
+}
+
+nav{
+    display: none;
+    height: 60px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+}
